@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		878CC0101C29315700D25E0F /* MicroBlogFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 878CC00F1C29315600D25E0F /* MicroBlogFrame.m */; };
+		87EE4B7A1C268FD6008765BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EE4B791C268FD6008765BE /* main.m */; };
+		87EE4B7D1C268FD6008765BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EE4B7C1C268FD6008765BE /* AppDelegate.m */; };
+		87EE4B831C268FD6008765BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87EE4B811C268FD6008765BE /* Main.storyboard */; };
+		87EE4B851C268FD6008765BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87EE4B841C268FD6008765BE /* Assets.xcassets */; };
+		87EE4B881C268FD6008765BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87EE4B861C268FD6008765BE /* LaunchScreen.storyboard */; };
+		87EE4B921C26900F008765BE /* MicroBlog.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EE4B911C26900F008765BE /* MicroBlog.m */; };
+		87EE4B941C269050008765BE /* microblog.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87EE4B931C269050008765BE /* microblog.plist */; };
+		87EE4B971C269536008765BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EE4B961C269536008765BE /* ViewController.m */; };
+		87EE4B9C1C269BF6008765BE /* MicroBlogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EE4B9B1C269BF6008765BE /* MicroBlogCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		878CC00E1C29315600D25E0F /* MicroBlogFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MicroBlogFrame.h; path = Models/MicroBlogFrame.h; sourceTree = "<group>"; };
+		878CC00F1C29315600D25E0F /* MicroBlogFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MicroBlogFrame.m; path = Models/MicroBlogFrame.m; sourceTree = "<group>"; };
+		87EE4B751C268FD6008765BE /* A03-微博.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A03-微博.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87EE4B791C268FD6008765BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87EE4B7B1C268FD6008765BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87EE4B7C1C268FD6008765BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87EE4B821C268FD6008765BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87EE4B841C268FD6008765BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87EE4B871C268FD6008765BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87EE4B891C268FD6008765BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87EE4B901C26900F008765BE /* MicroBlog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MicroBlog.h; path = Models/MicroBlog.h; sourceTree = "<group>"; };
+		87EE4B911C26900F008765BE /* MicroBlog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MicroBlog.m; path = Models/MicroBlog.m; sourceTree = "<group>"; };
+		87EE4B931C269050008765BE /* microblog.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = microblog.plist; sourceTree = "<group>"; };
+		87EE4B951C269536008765BE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Controllers/ViewController.h; sourceTree = "<group>"; };
+		87EE4B961C269536008765BE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Controllers/ViewController.m; sourceTree = "<group>"; };
+		87EE4B9A1C269BF6008765BE /* MicroBlogCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MicroBlogCell.h; path = Views/MicroBlogCell.h; sourceTree = "<group>"; };
+		87EE4B9B1C269BF6008765BE /* MicroBlogCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MicroBlogCell.m; path = Views/MicroBlogCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87EE4B721C268FD6008765BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87EE4B6C1C268FD6008765BE = {
+			isa = PBXGroup;
+			children = (
+				87EE4B771C268FD6008765BE /* A03-微博 */,
+				87EE4B761C268FD6008765BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87EE4B761C268FD6008765BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87EE4B751C268FD6008765BE /* A03-微博.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87EE4B771C268FD6008765BE /* A03-微博 */ = {
+			isa = PBXGroup;
+			children = (
+				87EE4B7B1C268FD6008765BE /* AppDelegate.h */,
+				87EE4B7C1C268FD6008765BE /* AppDelegate.m */,
+				87EE4B8F1C268FE2008765BE /* Models */,
+				87EE4B991C269548008765BE /* Views */,
+				87EE4B981C26953C008765BE /* Controllers */,
+				87EE4B841C268FD6008765BE /* Assets.xcassets */,
+				87EE4B861C268FD6008765BE /* LaunchScreen.storyboard */,
+				87EE4B891C268FD6008765BE /* Info.plist */,
+				87EE4B931C269050008765BE /* microblog.plist */,
+				87EE4B781C268FD6008765BE /* Supporting Files */,
+			);
+			path = "A03-微博";
+			sourceTree = "<group>";
+		};
+		87EE4B781C268FD6008765BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87EE4B791C268FD6008765BE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87EE4B8F1C268FE2008765BE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				87EE4B901C26900F008765BE /* MicroBlog.h */,
+				87EE4B911C26900F008765BE /* MicroBlog.m */,
+				878CC00E1C29315600D25E0F /* MicroBlogFrame.h */,
+				878CC00F1C29315600D25E0F /* MicroBlogFrame.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		87EE4B981C26953C008765BE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				87EE4B951C269536008765BE /* ViewController.h */,
+				87EE4B961C269536008765BE /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		87EE4B991C269548008765BE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				87EE4B811C268FD6008765BE /* Main.storyboard */,
+				87EE4B9A1C269BF6008765BE /* MicroBlogCell.h */,
+				87EE4B9B1C269BF6008765BE /* MicroBlogCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87EE4B741C268FD6008765BE /* A03-微博 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87EE4B8C1C268FD6008765BE /* Build configuration list for PBXNativeTarget "A03-微博" */;
+			buildPhases = (
+				87EE4B711C268FD6008765BE /* Sources */,
+				87EE4B721C268FD6008765BE /* Frameworks */,
+				87EE4B731C268FD6008765BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "A03-微博";
+			productName = "A03-微博";
+			productReference = 87EE4B751C268FD6008765BE /* A03-微博.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87EE4B6D1C268FD6008765BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LaiYong;
+				TargetAttributes = {
+					87EE4B741C268FD6008765BE = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 93YJBVG839;
+					};
+				};
+			};
+			buildConfigurationList = 87EE4B701C268FD6008765BE /* Build configuration list for PBXProject "A03-微博" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87EE4B6C1C268FD6008765BE;
+			productRefGroup = 87EE4B761C268FD6008765BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87EE4B741C268FD6008765BE /* A03-微博 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87EE4B731C268FD6008765BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87EE4B881C268FD6008765BE /* LaunchScreen.storyboard in Resources */,
+				87EE4B851C268FD6008765BE /* Assets.xcassets in Resources */,
+				87EE4B831C268FD6008765BE /* Main.storyboard in Resources */,
+				87EE4B941C269050008765BE /* microblog.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87EE4B711C268FD6008765BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878CC0101C29315700D25E0F /* MicroBlogFrame.m in Sources */,
+				87EE4B921C26900F008765BE /* MicroBlog.m in Sources */,
+				87EE4B7D1C268FD6008765BE /* AppDelegate.m in Sources */,
+				87EE4B9C1C269BF6008765BE /* MicroBlogCell.m in Sources */,
+				87EE4B971C269536008765BE /* ViewController.m in Sources */,
+				87EE4B7A1C268FD6008765BE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87EE4B811C268FD6008765BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87EE4B821C268FD6008765BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87EE4B861C268FD6008765BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87EE4B871C268FD6008765BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87EE4B8A1C268FD6008765BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87EE4B8B1C268FD6008765BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87EE4B8D1C268FD6008765BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "A03-微博/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LaiYong.A03---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		87EE4B8E1C268FD6008765BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "A03-微博/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LaiYong.A03---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87EE4B701C268FD6008765BE /* Build configuration list for PBXProject "A03-微博" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87EE4B8A1C268FD6008765BE /* Debug */,
+				87EE4B8B1C268FD6008765BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87EE4B8C1C268FD6008765BE /* Build configuration list for PBXNativeTarget "A03-微博" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87EE4B8D1C268FD6008765BE /* Debug */,
+				87EE4B8E1C268FD6008765BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87EE4B6D1C268FD6008765BE /* Project object */;
+}
